@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 2013 for Windows Desktop
+# Visual Studio Express 2013 for Web
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SorterCS", "SorterCS\SorterCS.csproj", "{5ED99D23-DBE4-4EF0-B147-AAB687ADFC76}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorter.Test", "Sorter.Test\Sorter.Test.csproj", "{23D4C39A-D29B-4143-993E-0B50AC2883E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorter.WebAPI", "Sorter.WebAPI\Sorter.WebAPI.csproj", "{54A4F485-F3BA-41BE-965D-587BC3C2B2FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{23D4C39A-D29B-4143-993E-0B50AC2883E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23D4C39A-D29B-4143-993E-0B50AC2883E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23D4C39A-D29B-4143-993E-0B50AC2883E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54A4F485-F3BA-41BE-965D-587BC3C2B2FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54A4F485-F3BA-41BE-965D-587BC3C2B2FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54A4F485-F3BA-41BE-965D-587BC3C2B2FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54A4F485-F3BA-41BE-965D-587BC3C2B2FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
